@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assignment_flexbox-2.css">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: white;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .parent{
+       margin: 75px;
+       width: 52%;
+       height: 55vh;
+       background: rgb(49, 47, 79);
+       border-radius: 5px; 
+       display: flex;  
+    }
+    .right-container{
+        display: flex;
+        flex-grow: 3;
+        gap: 20px;  
+    }
+    img{
+       height: 300px;
+       width: 150px;
+    }
+    .text-content{
+        padding: 10px;
+        margin: 20px;
+        font-size: 50px;
+        font-weight: 900;
+        color: aqua;
+    }
+    #paragraph{
+        padding: 10px;
+        font-size: 16px;
+        color:rgba(245, 245, 245, 0.614);
+    }
+    .img-name{
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 800;
+    }
+    .right-img-container>.text-paragraph{
+        color: rgba(245, 245, 245, 0.614);
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    
+</style>
+<body>
+    <div class="parent">
+        <div class="left-container">
+            <h1 class="text-content" id="our-speakers">Our <br> Speakers</h1>
+            <p class="text-content" id="paragraph">Hear from the people who made the magic happen.</p>
+        </div>
+        
+        <div class="right-container">
+            <div class="right-img-container">
+                <img src="./Images/c541002b-03ed-49ae-8d2d-649824800bd4.jpg" alt="">  
+                <h2 class="img-name">Lily Dean</h2>
+                <p class="text-paragraph">Creativity Researcher</p>
+                <p class="text-paragraph">Miskatonic University</p>
+            </div>    
+            
+            <div class="right-img-container">
+                <img src="./Images/1b2e461b-3e19-4260-b9cb-b43acf9ee7c8.jpg" alt="">    
+                <h2 class="img-name">Violet Porter</h2>
+                <p class="text-paragraph">Senior Manager</p>
+                <p class="text-paragraph">MindBodyBalance.Inc.</p>
+            </div>
+            <div class="right-img-container">
+                <img src="./Images/a4b40909-9da3-4020-b1be-5c8680928ad0.jpg" alt="">  
+                <h2 class="img-name">Richard Brito</h2>
+                <p class="text-paragraph">Developer</p>
+                <p class="text-paragraph">Ipsum Focto, LLC</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

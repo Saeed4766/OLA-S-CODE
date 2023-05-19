@@ -1,0 +1,84 @@
+ 
+ 
+
+#parent{
+    margin: auto;
+    
+}
+
+.container{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    height: 100vh;
+}
+
+.flex-items{
+    border: 1px solid black;
+    text-align: center;
+    height: 250px;
+    width: 200px;
+    padding: 80px;
+    
+    
+}
+
+#instagram-card{
+    background-color: deeppink ;
+    color: pink;
+}
+
+#insta-btn{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+}
+
+#twitter-btn{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    background-color: black;
+    color: white;
+}
+
+#youtube-btn{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    background-color: black;
+    color: white;
+}
+
+#twitter-text{
+    color: black;
+}
+
+#insta-text{
+    color: white;
+}
+
+#youtube-text{
+    color: black;
+}
+
+#icon1{
+    color: black;
+    
+}
+#icon2{
+    color: white;
+}
+#icon3{
+    color: black;
+}
+

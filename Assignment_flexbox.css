@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    background-color:rgb(65,65,146);
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-text{
+    text-align: center;
+    padding-top: 20px;
+}
+#startnow-txt{
+    color: rgba(245, 245, 245, 0.549);
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: 5px;
+}
+#yourplan-txt{
+    color: white;
+    font-size: 30px;
+}
+.box-container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.cards{
+    width: 250px;
+    height: 350px;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#second-card{
+    width: 250px;
+    height: 411px;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.cards p{
+    color: grey;
+    line-height: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+#most-popular{
+    color:rgb(65,65,146) ;
+    background: peachpuff;
+    width: 150px;
+    height: 25px;
+    
+}
+.txt-below-img{
+    color: rgb(255, 200, 0);
+    font-size: 22px;
+    font-weight:700;
+}
+.dollar{
+    color: rgba(68, 65, 225, 0.975);
+    font-size: 20px;
+    font-weight: 900;
+}
+.num{
+    color: rgb(65,65,146);
+    font-size: 40px;
+    font-weight: 900;
+}
+button{
+    padding: 7px 20px;
+    background: rgb(65,65,146);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+.btn{
+    border: none;
+    background: none;
+    color:  rgb(65,65,146);
+    font-weight: 900;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    
+}
+
+
